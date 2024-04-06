@@ -19,7 +19,7 @@ try:
             status_code = line_list[-2]
             file_size = int(line_list[-1])
 
-            # check if the status code receive exists in the dictionary 
+            # check if the status code receive exists in the dictionary
             # and increment its count
             if status_code in status_codes_dict.keys():
                 status_codes_dict[status_code] += 1
